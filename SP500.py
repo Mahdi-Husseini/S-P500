@@ -20,7 +20,6 @@ def load_data():
     return df
 
 df = load_data()
-df = df[0]
 
 # Sidebar - Sector selection
 sector_unique = sorted( df['GICS Sector'].unique() )
